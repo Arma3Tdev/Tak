@@ -40,7 +40,6 @@ switch (_side) do
 
 		if(license_civ_rebel && playerSide == civilian) then {
 			_return = [
-				["civ_spawn_2","North Karachinar",""],
 				["civ_spawn_3","Chaman",""],
 				["terrorist_spawn","Terrorist Area",""]
 			];
