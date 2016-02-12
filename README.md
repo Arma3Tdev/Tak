@@ -1,30 +1,3 @@
-MutinyGaming Current to-do list
-=============
-
-Can't do much more until I get the idea of what you want. Will talk to you tomorrow ~BongLord
-
-
-* suicide vest [DONE]
-* edit slot desiction names [DONE]
-* remove weapon addons from terrorist vendor [DONE]
-* fix the bank [DONE]
-* Bank Cameras [DONE]
-* make TPF/NATO only sell there own vehicles
-* pirce all items/vehicles  
-* Add Terroist Weapons [DONE]
-* Add Cop Uniforms [DONE - not complete still lookin for more outfits but still ready]
-* Medic Uniforms
-* Terrirost Uniforms 
-* Civilian Uniforms [DONE]
-* Add Legal Gunstore Weapons [DONE]
-* Medic/Civ/Cop Vehicles [DONE]
-* Map Editing.
-* Fix placment of random ATMs around map.
-* Surender Action [DONE] Dont know if its working ?
-* remote sql [DONE]
-* lock mods etc (anti cheat)?
-* 
-
 Getting Started Guide. For Any Future Developers <3 BongLord
 =============
 PBO Manager: http://www.armaholic.com/page.php?id=16369
