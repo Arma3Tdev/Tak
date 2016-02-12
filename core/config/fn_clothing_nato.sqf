@@ -2,17 +2,17 @@
 /*
     File: fn_clothing_cop.sqf
     Author: Bryan "Tonic" Boardwine
- 
+
     Description:
     Master config file for Cop clothing store.
 */
 private["_filter","_ret"];
 _filter = [_this,0,0,[0]] call BIS_fnc_param;
 //Classname, Custom Display name (use nil for Cfg->DisplayName, price
- 
+
 //Shop Title Name
 ctrlSetText[3103,"NATO Clothing Shop"];
- 
+
 _ret = [];
 switch (_filter) do
 {
@@ -22,6 +22,7 @@ switch (_filter) do
         _ret =
         [
             ["TRYK_U_B_MARPAT_Desert2",nil,25],
+			["TRYK_U_B_TANTAN_CombatUniform",nil,25],
             ["TRYK_U_B_ACU",nil,25],
             ["TRYK_U_B_ACUTshirt",nil,25],
             ["TRYK_U_B_MARPAT_Desert2_Tshirt",nil,25],
@@ -30,12 +31,13 @@ switch (_filter) do
             ["TRYK_U_B_ARO1R_CombatUniform",nil,20]
         ];
     };
- 
+
     //Hats
     case 1:
-	
+
     {
             _ret pushBack ["TRYK_R_CAP_BLK",nil,25];
+			_ret pushBack ["H_Cap_tan",nil,25];
             _ret pushBack ["TRYK_H_Helmet_ACU",nil,25];
             _ret pushBack ["TRYK_H_PASGT_TAN",nil,25];
             _ret pushBack ["TRYK_H_Helmet_ACU",nil,25];
@@ -51,7 +53,7 @@ switch (_filter) do
                 _ret pushBack ["H_Beret_02",nil,550];
             };
     };
- 
+
     //Glasses
     case 2:
     {
@@ -71,7 +73,7 @@ switch (_filter) do
             ["Mask_M40",nil,20]
         ];
     };
- 
+
     //Vest
     case 3:
     {
@@ -88,8 +90,8 @@ switch (_filter) do
             ["V_PlateCarrierGL_blk",nil,20]
         ];
     };
- 
- 
+
+
     //Backpacks
     case 4:
     {
@@ -104,5 +106,5 @@ switch (_filter) do
         ];
     };
 };
- 
+
 _ret;

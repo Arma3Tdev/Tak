@@ -5,7 +5,6 @@
     Description:
     Master configuration list / array for buyable vehicles & prices and their shop.
     _veh = createVehicle ["Jonzie_XB",position player,[],0,"NONE"];
-
 */
 
 private["_shop","_return"];
@@ -51,6 +50,8 @@ switch (_shop) do
             ["Jonzie_Datsun_Z432",50000],
             ["Jonzie_Galant",30000],
             ["Jonzie_Viper",200000],
+			["Jonzie_Quattroporte",400000],
+			["Jonzie_STI",400000],
             ["B_Quadbike_01_F",1500],
             ["C_Hatchback_01_F",3500],
             ["C_Offroad_01_F",10500],
@@ -143,8 +144,8 @@ switch (_shop) do
         };
 	if(__GETC__(life_coplevel) > 13) then {
         _return = [
-            ["CUP_B_M2A3Bradley_USA_D",50000],
-            ["CUP_B_M1A2_TUSK_MG_DES_US_Army",50000],
+            ["CUP_B_M2A3Bradley_USA_D",500000],
+            ["CUP_B_M1A2_TUSK_MG_DES_US_Army",500000],
             ["CUP_B_HMMWV_Unarmed_USA",5000],
             ["B_UGV_01_F",5000],
             ["CUP_B_HMMWV_Transport_USA",10000],

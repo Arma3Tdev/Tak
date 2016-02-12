@@ -2,7 +2,6 @@
 /*
 	File: fn_clothing_cop.sqf
 	Author: Bryan "Tonic" Boardwine
-
 	Description:
 	Master config file for Cop clothing store.
 */
@@ -28,6 +27,7 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 3) then
 		{
 			_ret pushBack ["TRYK_U_B_TANTAN_CombatUniform",nil,550];
+			_ret pushBack ["TRYK_U_B_BLKBLK_CombatUniform",nil,550];
 			_ret pushBack ["CUP_U_O_TK_Ghillie_Top",nil,550];
 		};
 	};
@@ -46,11 +46,13 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 3) then
 		{
 			_ret pushBack ["TRYK_H_woolhat",nil,550];
+			_ret pushBack ["TRYK_R_CAP_BLK",nil,550];
 			_ret pushBack ["CUP_H_USMC_Helmet_Pilot",nil,550];
 		};
 		if(__GETC__(life_coplevel) > 4) then
 		{
 			_ret pushBack ["TRYK_H_PASGT_BLK",nil,550];
+			_ret pushBack ["H_Beret_blk",nil,550];
 		};
 		if(__GETC__(life_coplevel) > 5) then
 		{
@@ -71,6 +73,7 @@ switch (_filter) do
 			["T_HoodMDO",nil,20],
 			["NeckTight_DMBLK",nil,20],
 			["LCG_Shemagh_Tan",nil,20],
+			["PU_shemagh_GryO",nil,20],
 			["Mask_M50",nil,20],
 			["Mask_M40_OD",nil,20],
 			["Mask_M40",nil,20]
@@ -89,12 +92,15 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 3) then
 		{
 			_ret pushBack ["TRYK_V_tacv1_P_BK",nil,550];
+			_ret pushBack ["TRYK_V_tacv1LP_BK",nil,550];
+			_ret pushBack ["TRYK_V_tacv1LP_BK",nil,550];
 			_ret pushBack ["TRYK_V_ArmorVest_tan2",nil,550];
 		};
 		if(__GETC__(life_coplevel) > 4) then
 		{
 			_ret pushBack ["TRYK_V_tacv1LC_P_BK",nil,550];
 			_ret pushBack ["V_PlateCarrierGL_blk",nil,550];
+			_ret pushBack ["TRYK_V_PlateCarrier_blk",nil,550];
 		};
 		if(__GETC__(life_coplevel) > 5) then
 		{
