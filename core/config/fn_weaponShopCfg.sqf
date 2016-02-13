@@ -109,12 +109,12 @@ switch(_shop) do
 							["arifle_sdar_F","Taser Rifle",1500 * _discount],
 							["hgun_P07_snds_F","Stun Pistol",500 * _discount],
 							["hgun_P07_F",nil,1000 * _discount],
-/*							["CUP_hgun_TaurusTracker455",nil,1000 * _discount],
+							["CUP_hgun_TaurusTracker455",nil,1000 * _discount],
 							["CUP_6Rnd_45ACP_M",nil,100 * _discount],
-*/							["CUP_smg_MP5A5",nil,3000 * _discount],
-							["16Rnd_9x21_Mag","Stun Magazine",50 * _discount]
-/*							["20Rnd_556x45_UW_mag","Taser Magazine",50 * _discount],
-*/							["CUP_30Rnd_9x19_MP5",nil,125 * _discount]
+							["CUP_smg_MP5A5",nil,3000 * _discount],
+							["16Rnd_9x21_Mag","Stun Magazine",50 * _discount],
+							["20Rnd_556x45_UW_mag","Taser Magazine",50 * _discount],
+							["CUP_30Rnd_9x19_MP5",nil,125 * _discount]
 					]
 				];
 			};
@@ -125,12 +125,12 @@ switch(_shop) do
 							["arifle_sdar_F","Taser Rifle",1500 * _discount],
 							["hgun_P07_snds_F","Stun Pistol",500 * _discount],
 							["hgun_P07_F",nil,1000 * _discount],
-/*							["CUP_hgun_TaurusTracker455",nil,1000 * _discount],
+							["CUP_hgun_TaurusTracker455",nil,1000 * _discount],
 							["CUP_6Rnd_45ACP_M",nil,100 * _discount],
-*/							["CUP_smg_MP5A5",nil,3000 * _discount],
+							["CUP_smg_MP5A5",nil,3000 * _discount],
 							["16Rnd_9x21_Mag","Stun Magazine",50 * _discount],
-							["20Rnd_556x45_UW_mag","Taser Magazine",50 * _discount]
-/*							["CUP_30Rnd_9x19_MP5",nil,125 * _discount],
+							["20Rnd_556x45_UW_mag","Taser Magazine",50 * _discount],
+							["CUP_30Rnd_9x19_MP5",nil,125 * _discount],
 							["CUP_arifle_M4A1_black",nil,3000 * _discount],
 							["CUP_arifle_M4A1_desert",nil,3000 * _discount],
 							["CUP_arifle_M16A4_Base",nil,3000 * _discount],
@@ -152,7 +152,7 @@ switch(_shop) do
 							["CUP_optic_Kobra",nil,125 * _discount],
 							["optic_Arco",nil,125 * _discount],
 							["optic_Hamr",nil,125 * _discount],
-*/							["optic_DMS",nil,125 * _discount]
+							["optic_DMS",nil,125 * _discount]
 
 					]
 				];
