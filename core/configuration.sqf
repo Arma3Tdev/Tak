@@ -163,6 +163,7 @@ life_inv_items =
 	"life_inv_blastingcharge",
 	"life_inv_boltcutter",
 	"life_inv_defusekit",
+	"life_inv_zipties",
 	"life_inv_storagesmall",
 	"life_inv_storagebig"
 ];
@@ -274,6 +275,7 @@ buy_array =
 	["spikeStrip",2500],
 	["blastingcharge",35000],
 	["boltcutter",7500],
+	["zipties",10000],
 	["defusekit",2500]
 ];
 __CONST__(buy_array,buy_array);
