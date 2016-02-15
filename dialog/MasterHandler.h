@@ -27,3 +27,5 @@
 #include "compensate.hpp"
 #include "dynmarket_changeprice.hpp"
 #include "dynmarket_prices.hpp"
+#include "AH_sell.hpp"
+#include "AH_buy.hpp"
