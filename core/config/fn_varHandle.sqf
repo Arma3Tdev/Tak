@@ -51,6 +51,7 @@ switch (_mode) do
 			case "tbacon": {"life_inv_tbacon"};
 			case "lockpick": {"life_inv_lockpick"};
 			case "jawsoflife": {"life_inv_jawsoflife"};
+			case "zipties": {"life_inv_zipties"};
 			case "redgull": {"life_inv_redgull"};
 			case "peach": {"life_inv_peach"};
 			case "diamond": {"life_inv_diamond"};
@@ -118,6 +119,7 @@ switch (_mode) do
 			case "life_inv_cement": {"cement"};
 			case "life_inv_rock": {"rock"};
 			case "life_inv_goldbar": {"goldbar"};
+			case "life_inv_zipties": {"zipties"};
 			case "life_inv_blastingcharge": {"blastingcharge"};
 			case "life_inv_boltcutter": {"boltcutter"};
 			case "life_inv_defusekit": {"defusekit"};

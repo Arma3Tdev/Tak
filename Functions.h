@@ -295,7 +295,7 @@ class Life_Client_Core
 		class CAH_fetchDetails {};
 		class CAH_loggedIn {};
 	};
-	
+
 	class Vehicle
 	{
 		file = "core\vehicle";
@@ -398,6 +398,7 @@ class Life_Client_Core
 		class blastingCharge {};
 		class defuseKit {};
 		class storageBox {};
+		class zipties {};
 	};
 
 	class Dialog_Controls

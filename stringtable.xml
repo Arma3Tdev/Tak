@@ -3487,6 +3487,10 @@
 			<Original>Jaws of Life</Original>
 			<English>Jaws of Life</English>
 		</Key>
+		<Key ID="STR_Item_Zipties">
+			<Original>Zipties</Original>
+			<English>Zipties</English>
+		</Key>
 		<Key ID="STR_Item_Rock">
 			<Original>Rock</Original>
 			<English>Rock</English>
