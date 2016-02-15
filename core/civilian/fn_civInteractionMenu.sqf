@@ -46,7 +46,7 @@ _Btn9 ctrlShow false;
 
 //Set Unrestrain Button
 _Btn1 ctrlSetText localize "STR_pInAct_Unrestrain";
-_Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_civunrestrain; closeDialog 0;";
+_Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDialog 0;";
 
 //Set Escort Button
 if((_curTarget getVariable["Escorting",false])) then {
