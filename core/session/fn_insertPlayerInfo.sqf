@@ -2,6 +2,8 @@
 	File: fn_insertPlayerInfo.sqf
 	Author: Bryan "Tonic" Boardwine
 	
+	This pbo is the property of MutinyGamingAU.com
+	
 	Description:
 	Read the file name... Explains it.
 */
