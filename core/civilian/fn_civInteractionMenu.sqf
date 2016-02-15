@@ -1,7 +1,7 @@
 /*
 	File: fn_civInteractionMenu.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Replaces the mass addactions for various cop actions towards another player.
 */
@@ -23,7 +23,7 @@ if(!dialog) then {
 disableSerialization;
 _curTarget = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _curTarget) exitWith {closeDialog 0;}; //Bad target
-		
+
 if(!isPlayer _curTarget && side _curTarget == civilian) exitWith {closeDialog 0;}; //Bad side check?
 _display = findDisplay 37400;
 _Btn1 = _display displayCtrl Btn1;
@@ -52,7 +52,7 @@ _Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDi
 if((_curTarget getVariable["Escorting",false])) then {
 	_Btn2 ctrlSetText localize "STR_pInAct_StopEscort";
 	_Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_stopEscorting; [life_pInact_curTarget] call life_fnc_civInteractionMenu;";
-} else {
+} else {	
 	_Btn2 ctrlSetText localize "STR_pInAct_Escort";
 	_Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_escortAction; closeDialog 0;";
 };
