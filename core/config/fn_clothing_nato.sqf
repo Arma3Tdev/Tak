@@ -27,8 +27,12 @@ switch (_filter) do
             ["TRYK_U_B_ACUTshirt",nil,25],
             ["TRYK_U_B_MARPAT_Desert2_Tshirt",nil,25],
             ["TRYK_U_B_MARPAT_Desert_Tshirt",nil,25],
+			["TRYK_HRP_UCP",nil,25],
             ["TRYK_U_B_ARO1_CBR_CombatUniform",nil,25],
-            ["TRYK_U_B_ARO1R_CombatUniform",nil,20]
+            ["TRYK_U_B_ARO1R_CombatUniform",nil,20],
+			["CUP_U_O_SLA_Officer",nil,20],
+			["CUP_U_B_GER_Ghillie",nil,20],
+			["U_B_FullGhillie_ard",nil,20]
         ];
     };
 
@@ -37,6 +41,9 @@ switch (_filter) do
 
     {
             _ret pushBack ["TRYK_R_CAP_BLK",nil,25];
+			_ret pushBack ["TRYK_H_PASGT_OD",nil,25];
+			_ret pushBack ["H_MilCap_gry",nil,25];
+			_ret pushBack ["H_PilotHelmetHeli_B",nil,25];
 			_ret pushBack ["H_Cap_tan",nil,25];
             _ret pushBack ["TRYK_H_Helmet_ACU",nil,25];
             _ret pushBack ["TRYK_H_PASGT_TAN",nil,25];
@@ -60,6 +67,9 @@ switch (_filter) do
         _ret =
         [
             ["G_Bandanna_khk",nil,25],
+			["G_Balaclava_blk",nil,25],
+			["G_Balaclava_combat",nil,25],
+			["G_Bandanna_beast",nil,25],
             ["TRYK_kio_balaclava_ESS",nil,25],
             ["T_HoodACUO",nil,25],
             ["G_Bandanna_aviator",nil,20],
@@ -80,6 +90,7 @@ switch (_filter) do
         _ret =
         [
             ["V_TacVest_khk",nil,25],
+			["TRYK_V_ArmorVest_Ranger2",nil,25],
             ["TRYK_V_PlateCarrier_ACU",nil,25],
             ["CUP_V_B_MTV_Mine",nil,25],
             ["TRYK_V_ArmorVest_AOR1_2",nil,20],
