@@ -67,6 +67,15 @@ if(playerSide == west) then {
 	};
 	
 } else {
+
+	_Btn7 ctrlSetText localize "STR_vInAct_PullOut";
+	_Btn7 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;"; 
+    if(count crew _curTarget == 0) then {_Btn7 ctrlEnable false;}
+    else {
+        {
+            if(alive _x && _x getVariable "ziptied") then {_Btn7 ctrlEnable true;};
+        }forEach (crew _curTarget);
+    };
 	
 	if(_curTarget isKindOf "Ship") then {
 		_Btn2 ctrlSetText localize "STR_vInAct_PushBoat";

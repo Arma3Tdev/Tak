@@ -2,8 +2,7 @@
 	File: fn_pullOutVeh.sqf
 	Author: Bryan "Tonic" Boardwine
 */
-if((vehicle player == player)) exitWith {};
-if(player getVariable "restrained" || player getVariable "ziptied") then
+if(player getVariable "ziptied") then
 {
 	detach player;
 	player setVariable["Escorting",false,true];
@@ -11,5 +10,5 @@ if(player getVariable "restrained" || player getVariable "ziptied") then
 };
 
 player action ["Eject", vehicle player];
-titleText[localize "STR_NOTF_PulledOut","PLAIN"];
+titleText["You have been pulled out of the vehicle","PLAIN"];
 titleFadeOut 4;

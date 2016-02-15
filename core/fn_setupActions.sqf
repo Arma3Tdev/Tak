@@ -16,6 +16,5 @@ switch (playerSide) do
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable["robbed",FALSE]) ']];
 		// Suicide Bomb
 		life_actions = life_actions + [player addAction["Activate suicide vest",life_fnc_suicideBomb,"",0,false,false,"",
-		'vest player == "V_HarnessOGL_brn" && alive player && playerSide == civilian && !life_istazed && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
-	};
+		'vest player == "V_HarnessOGL_brn" && alive player && playerSide == civilian && !life_istazed && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting") && !(player getVariable "ziptied")']];
 };

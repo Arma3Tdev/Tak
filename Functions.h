@@ -130,6 +130,8 @@ class Life_Client_Core
 		class suicideBomb {};
 		class surrender {};
 		class execute {};
+		class civrestrainAction {};
+		class civunrestrain {};
 	};
 
 	class Housing
@@ -249,6 +251,7 @@ class Life_Client_Core
 		class fadeSound {};
 		class autoSave {};
 		class setRating {};
+		class civpullOutVeh {};
 	};
 
 	class Network
@@ -398,7 +401,6 @@ class Life_Client_Core
 		class blastingCharge {};
 		class defuseKit {};
 		class storageBox {};
-		class zipties {};
 	};
 
 	class Dialog_Controls

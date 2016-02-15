@@ -107,13 +107,26 @@ switch (_code) do
 		};
 	};
 
-	//Restraining (Shift + R)
+    //Restraining (Shift + R)
 	case 19:
 	{
-		if(_shift) then {_handled = true;};
+		if(_shift || (player getVariable "restrained" || player getVariable "ziptied" || player getVariable "surrender")) then {_handled = true;};
 		if(_shift && playerSide == west && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
 		{
 			[] call life_fnc_restrainAction;
+		};
+		if(_shift || (player getVariable "ziptied" || player getVariable "surrender")) then {_handled = true;};
+		if(_shift && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (cursorTarget getVariable "surrender") && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && !(cursorTarget getVariable "ziptied") && speed cursorTarget < 1) then
+			{
+			if([false,"zipties",1] call life_fnc_handleInv) then
+			{
+				[] call life_fnc_civrestrainAction;
+				hint "You restrained him, use your interaction menu for more options";
+			}
+			else
+			{
+				hint "You have no zipties!";
+			};
 		};
 	};
 
