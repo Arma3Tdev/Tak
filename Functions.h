@@ -248,6 +248,7 @@ class Life_Client_Core
 		//New Shit. Lets Keep This Clean.
 		class fadeSound {};
 		class autoSave {};
+		class setRating {};
 	};
 
 	class Network
