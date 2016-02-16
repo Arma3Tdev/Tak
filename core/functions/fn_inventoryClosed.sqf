@@ -16,9 +16,9 @@ if((typeOf _container) in ["Box_IND_Grenades_F","B_supplyCrate_F"]) exitWith {
 		case (count _house == 0): {_exit = true;};
 		case (count _house == 1): {_house = _house select 0;};
 		default {
-			{if(_x isKindOf "House_F") exitWith {_house = _x;};} foreach _house;
+			{if(_x isKindOf "Land_House_K") exitWith {_house = _x;};} foreach _house;
 		};
 	};
-	if(!isNil "_exit" OR !(_house isKindOf "House_F")) exitWith {systemChat localize "STR_House_ContainerError"};
+	if(!isNil "_exit" OR !(_house isKindOf "Land_House_K")) exitWith {systemChat localize "STR_House_ContainerError"};
 	[[_house],"TON_fnc_updateHouseContainers",false,false] spawn life_fnc_MP;
 };

@@ -10,7 +10,7 @@ _house = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 _uid = getPlayerUID player;
 
 if(isNull _house) exitWith {};
-if(!(_house isKindOf "House_F")) exitWith {};
+if(!(_house isKindOf "Land_House_K")) exitWith {};
 if((_house getVariable["house_owned",false])) exitWith {hint "This house is already owned even though you shouldn't be seeing this hint..."};
 if(!isNil {(_house getVariable "house_sold")}) exitWith {hint localize "STR_House_Sell_Process"};
 if(!license_civ_home) exitWith {hint localize "STR_House_License"};

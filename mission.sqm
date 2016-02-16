@@ -41322,7 +41322,7 @@ class Mission
 			offsetY=-0.093299903;
 			id=3987;
 			side="EMPTY";
-			vehicle="Land_House_L_1_EP1";
+			vehicle="Land_House_K_L_1_EP1";
 			skill=0.60000002;
 		};
 		class Item3786

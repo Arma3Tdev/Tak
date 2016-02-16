@@ -6,7 +6,7 @@
 */
 private["_house","_door","_title","_titleText","_progressBar","_cpRate","_cP","_uid"];
 _house = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
-if(isNull _house OR !(_house isKindOf "House_F")) exitWith {};
+if(isNull _house OR !(_house isKindOf "Land_House_K")) exitWith {};
 if(isNil {(_house getVariable "house_owner")}) exitWith {hint localize "STR_House_Raid_NoOwner"};
 
 _uid = (_house getVariable "house_owner") select 0;

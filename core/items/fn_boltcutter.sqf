@@ -7,7 +7,7 @@
 private["_building","_door","_doors","_cpRate","_title","_progressBar","_titleText","_cp","_ui"];
 _building = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _building) exitWith {};
-if(!(_building isKindOf "House_F")) exitWith {hint "You are not looking at a house door."};
+if(!(_building isKindOf "Land_House_K")) exitWith {hint "You are not looking at a house door."};
 if(isNil "life_boltcutter_uses") then {life_boltcutter_uses = 0;};
 if((nearestObject [[5655.92,8893.07,0.2],"Land_A_Mosque_big_hq_EP1"]) == _building OR (nearestObject [[5654.67,8894.95,0.2],"Land_Cargo_House_V3_F"]) == _building) then {
 	[[[1,2],"STR_ISTR_Bolt_AlertFed",true,[]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
