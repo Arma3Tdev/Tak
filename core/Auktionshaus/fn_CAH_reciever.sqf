@@ -30,15 +30,15 @@ switch (_mode) do
 			<t color='#228B22'>%3%2</t><br/>", name _seller,_price,"$"
 		];
 		life_atmcash = life_atmcash + _price;
-		_listings = profileNamespace getVariable "listings";
-		//_listings = _listings - (_info select 2);
+		_mutiny = profileNamespace getVariable "mutiny";
+		//_mutiny = _mutiny - (_info select 2);
 		_index = -1;
 		_handled = false;
 		{
 			_index = _index + 1;
-			if (_x isEqualTo (_info select 2) AND !_handled) then {_listings deleteAt _index;_handled=true;};
-		} forEach _listings;
-		profileNamespace setVariable ["listings",_listings];
+			if (_x isEqualTo (_info select 2) AND !_handled) then {_mutiny deleteAt _index;_handled=true;};
+		} forEach _mutiny;
+		profileNamespace setVariable ["mutiny",_mutiny];
 	};
 	case 2:
 	{

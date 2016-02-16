@@ -11,10 +11,10 @@ if (lbCurSel _myListbox < 0) exitWith {hint "Please select an Item";};
 _classname = _myListbox lbData (lbCurSel _myListbox);
 _price = floor(_tochangePriceNumber);
 
-if (isNil {profileNamespace getVariable "listings"}) then {profileNamespace setVariable ["listings",[]];};
-_currentListings = profileNamespace getVariable "listings";
-_currentListings pushBack [getPlayerUID player,_classname,_price];
-profileNamespace setVariable ["listings",_currentListings];
+if (isNil {profileNamespace getVariable "mutiny"}) then {profileNamespace setVariable ["mutiny",[]];};
+_currentmutiny = profileNamespace getVariable "mutiny";
+_currentmutiny pushBack [getPlayerUID player,_classname,_price];
+profileNamespace setVariable ["mutiny",_currentmutiny];
 
 systemChat format ["%1",[getPlayerUID player,_classname,_price]];
 
