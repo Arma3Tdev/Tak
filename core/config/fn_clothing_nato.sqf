@@ -2,7 +2,6 @@
 /*
     File: fn_clothing_cop.sqf
     Author: Bryan "Tonic" Boardwine
-
     Description:
     Master config file for Cop clothing store.
 */
@@ -30,7 +29,9 @@ switch (_filter) do
 			["TRYK_HRP_UCP",nil,25],
             ["TRYK_U_B_ARO1_CBR_CombatUniform",nil,25],
             ["TRYK_U_B_ARO1R_CombatUniform",nil,20],
-			["CUP_U_O_SLA_Officer",nil,20],
+			["TRYK_U_B_NATO_UCP_CombatUniform",nil,20],
+			["TRYK_U_B_NATO_UCP_R_CombatUniform",nil,20],
+			["TRYK_B_TRYK_UCP_T",nil,20],
 			["CUP_U_B_GER_Ghillie",nil,20],
 			["U_B_FullGhillie_ard",nil,20]
         ];
