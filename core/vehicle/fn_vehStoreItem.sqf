@@ -16,7 +16,7 @@ if(!([_num] call TON_fnc_isnumber)) exitWith {hint "Invalid Number format";};
 _num = parseNumber(_num);
 if(_num < 1) exitWith {hint "You can't enter anything below 1!";};
 
-if(life_trunk_vehicle isKindOf "Land_House_K") then {
+if(life_trunk_vehicle isKindOf "House_F") then {
 	_mWeight = 0;
 	{_mWeight = _mWeight + ([(typeOf _x)] call life_fnc_vehicleWeightCfg);} foreach (life_trunk_vehicle getVariable["containers",[]]);
 	_totalWeight = [_mWeight,(life_trunk_vehicle getVariable["Trunk",[[],0]]) select 1];
@@ -27,7 +27,7 @@ _itemWeight = ([_ctrl] call life_fnc_itemWeight) * _num;
 _veh_data = life_trunk_vehicle getVariable ["Trunk",[[],0]];
 _inv = _veh_data select 0;
 
-if(_ctrl == "goldbar" && {!(life_trunk_vehicle isKindOf "LandVehicle" OR life_trunk_vehicle isKindOf "Land_House_K")}) exitWith {hint "You cannot store that in anything but a land vehicle!"};
+if(_ctrl == "goldbar" && {!(life_trunk_vehicle isKindOf "LandVehicle" OR life_trunk_vehicle isKindOf "House_F")}) exitWith {hint "You cannot store that in anything but a land vehicle!"};
 
 if(_ctrl == "money") then
 {

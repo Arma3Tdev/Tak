@@ -10,7 +10,7 @@ _house = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 _uid = getPlayerUID player;
 
 if(isNull _house) exitWith {};
-if(!(_house isKindOf "Land_House_K")) exitWith {};
+if(!(_house isKindOf "House_F")) exitWith {};
 if(isNil {_house getVariable "house_owner"}) exitWith {hint "There is no owner for this house."};
 closeDialog 0;
 

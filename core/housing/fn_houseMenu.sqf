@@ -39,7 +39,7 @@ _Btn6 ctrlShow false;
 _Btn7 ctrlShow false;
 
 life_pInact_curTarget = _curTarget;
-if(_curTarget isKindOf "Land_House_K" && playerSide == west) exitWith {
+if(_curTarget isKindOf "House_F" && playerSide == west) exitWith {
 	if((nearestObject [[5655.92,8893.07,0.2],"Land_A_Mosque_big_hq_EP1"]) == _curTarget OR (nearestObject [[5654.67,8894.95,0.2],"Land_Cargo_House_V3_F"]) == _curTarget) then {
 		
 		_Btn1 ctrlSetText localize "STR_pInAct_Repair";

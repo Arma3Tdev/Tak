@@ -15,7 +15,7 @@ _pInv = (findDisplay 3500) displayCtrl 3503;
 lbClear _tInv;
 lbClear _pInv;
 
-if(_veh isKindOf "Land_House_K") then {
+if(_veh isKindOf "House_F") then {
 	private["_mWeight"];
 	_mWeight = 0;
 	{_mWeight = _mWeight + ([(typeOf _x)] call life_fnc_vehicleWeightCfg);} foreach (_veh getVariable["containers",[]]);

@@ -23,7 +23,7 @@ disableSerialization;
 _curTarget = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _curTarget) exitWith {closeDialog 0;}; //Bad target
 
-if(_curTarget isKindOf "Land_House_K") exitWith {
+if(_curTarget isKindOf "House_F") exitWith {
 	if((nearestObject [[5655.92,8893.07,0.2],"Land_A_Mosque_big_hq_EP1"]) == _curTarget OR (nearestObject [[5654.67,8894.95,0.2],"Land_Cargo_House_V3_F"]) == _curTarget) then {
 		_display = findDisplay 37400;
 		_Btn1 = _display displayCtrl Btn1;
