@@ -46936,7 +46936,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=215;
+		items=216;
 		class Item0
 		{
 			position[]={-2321.8403,91.290001,15284.905};
@@ -48540,101 +48540,101 @@ class Mission
 		};
 		class Item198
 		{
-			position[]={3512.0093,173.2403,5568.7617};
+			position[]={5850.1519,262.72049,5756.7026};
 			name="sv_spawn1";
 			type="Empty";
-			angle=68.483131;
+			angle=-17.671837;
 		};
 		class Item199
 		{
-			position[]={3471.7351,175.13863,5553.1641};
+			position[]={5857.9097,264.33408,5737.96};
 			name="sv_spawn2";
 			type="Empty";
-			angle=-296.51874;
+			angle=-375.79257;
 		};
 		class Item200
 		{
-			position[]={3432.3728,174.82626,5541.0298};
+			position[]={5866.2646,265.72928,5717.7944};
 			name="sv_spawn3";
 			type="Empty";
-			angle=77.266129;
+			angle=-22.010344;
 		};
 		class Item201
 		{
-			position[]={3389.5747,176.10989,5528.9907};
+			position[]={5875.7461,266.77573,5696.3755};
 			name="sv_spawn4";
 			type="Empty";
-			angle=74.838135;
+			angle=-24.438334;
 		};
 		class Item202
 		{
-			position[]={4045.7805,164.28517,5651.5693};
+			position[]={5826.0083,215.34077,6091.2671};
 			name="sv_pos1";
 			type="Empty";
-			angle=94.760651;
+			angle=-347.14908;
 		};
 		class Item203
 		{
-			position[]={4701.8755,155.88109,5796.189};
+			position[]={5891.4902,158.47523,6443.6431};
 			name="sv_pos2";
 			type="Empty";
-			angle=58.783356;
+			angle=-0.50553173;
 		};
 		class Item204
 		{
-			position[]={5207.3403,143.85936,6142.0615};
+			position[]={5854.7666,140.21675,6687.9541};
 			name="sv_pos3";
 			type="Empty";
-			angle=-306.49435;
+			angle=-305.98441;
 		};
 		class Item205
 		{
-			position[]={5570.8125,145.81636,6391.0684};
+			position[]={5963.6255,131.1546,7038.6367};
 			name="sv_pos4";
 			type="Empty";
-			angle=50.373085;
+			angle=-23.151934;
 		};
 		class Item206
 		{
-			position[]={5857.4771,140.17551,6689.9712};
+			position[]={5938.1816,123.07364,7393.8682};
 			name="sv_pos5";
 			type="Empty";
-			angle=57.616562;
+			angle=114.8035;
 		};
 		class Item207
 		{
-			position[]={5937.145,123.16032,7393.3047};
+			position[]={6658.9854,160.59996,7367.9956};
 			name="sv_pos6";
 			type="Empty";
-			angle=-254.44901;
+			angle=-270.15863;
 		};
 		class Item208
 		{
-			position[]={6762.1885,169.86125,7331.7017};
+			position[]={6758.8276,225.76872,6863.4922};
 			name="sv_pos7";
 			type="Empty";
-			angle=140.67696;
+			angle=194.65355;
 		};
 		class Item209
 		{
-			position[]={6740.4448,256.30341,6677.6689};
+			position[]={6730.4448,301.29459,6052.6919};
 			name="sv_pos8";
 			type="Empty";
-			angle=-190.81134;
+			angle=-264.5488;
 		};
 		class Item210
 		{
-			position[]={6746.9346,276.74313,6320.8711};
+			position[]={7737.6865,457.62195,5608.3818};
 			name="sv_pos9";
 			type="Empty";
-			angle=189.24808;
+			angle=109.0779;
 		};
 		class Item211
 		{
-			position[]={6730.3477,301.23743,6053.3408};
+			position[]={8909.9561,265.87637,5324.5854};
 			name="sv_pos10";
 			type="Empty";
-			angle=-93.249725;
+			angle=-496.42233;
 		};
 		class Item212
 		{
@@ -48665,6 +48665,14 @@ class Mission
 			fillName="FDiagonal";
 			a=20;
 			b=20;
+		};
+		class Item215
+		{
+			position[]={8910.0488,265.87198,5324.6118};
+			name="Dispoal";
+			text="Weapon Disposal Plant";
+			type="waypoint";
+			colorName="ColorRed";
 		};
 	};
 	class Sensors

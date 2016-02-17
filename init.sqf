@@ -28,6 +28,7 @@ life_versionInfo = "Takistan Life RPG v1.0";
 [] execVM "scripts\gasmask.sqf"; //TearGas Script
 [] execVM "scripts\repetitive_cleanup.sqf";
 [] execVM "scripts\message.sqf";
+//[] execVM "scripts\fastrope.sqf";
 //[] execVM "scripts\Turbo.sqf"; //Turbo Script, Increases Car Speed
 StartProgress = true;
 
