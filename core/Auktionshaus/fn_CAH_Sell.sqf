@@ -10,6 +10,7 @@ if (_tochangePriceText=="") exitWith {hint parseText "<t color='#FF0000'>--ERROR
 if (lbCurSel _myListbox < 0) exitWith {hint "Please select an Item";};
 _classname = _myListbox lbData (lbCurSel _myListbox);
 _price = floor(_tochangePriceNumber);
+if (_price>999999) exitWith {hint "Max Sell Price Is 999999";};
 
 if (isNil {profileNamespace getVariable "mutiny"}) then {profileNamespace setVariable ["mutiny",[]];};
 _currentmutiny = profileNamespace getVariable "mutiny";
