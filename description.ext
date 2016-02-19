@@ -1,6 +1,6 @@
 #include "infiSTAR_AdminMenu.hpp"
 author = "Tonic";
-onLoadName = "Takistan Life v1.0";
+onLoadName = "Takistan Life v2.1";
 onLoadMission = "developed by Tonic, Modded by MutinyGamingAU.com";
 joinUnassigned = 1;
 respawn = BASE;

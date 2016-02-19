@@ -50,7 +50,7 @@ switch(life_onduty) do
 		player allowDamage true;
 		{
 			player removeAction _x;
-		} forEach _actions;
+		} forEach LIFE_Admin_Actions;
 		[[0,format["Admin %1 is now off duty.",profileName]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
 	};
 
