@@ -85,7 +85,7 @@ __CONST__(life_impound_air,1500);
 __CONST__(life_impound_tank,2000);
 life_istazed = false;
 life_my_gang = ObjNull;
-life_onduty = false;
+life_onduty = true;
 life_vehicles = [];
 bank_robber = [];
 switch (playerSide) do
