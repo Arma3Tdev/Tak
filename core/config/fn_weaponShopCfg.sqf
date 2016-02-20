@@ -15,7 +15,7 @@
 private["_shop","_donator","_Percentage","_discount"];
 _shop = [_this,0,"",[""]] call BIS_fnc_param;
 if(_shop == "") exitWith {closeDialog 0}; //Bad shop type passed.
-_donator = (__GETC__(life_donator));
+_donator = __GETC__(life_donatorlvl);
 _Percentage = 7;
 _discount = 1 / 100 * (100 - _donator * _Percentage);
 
@@ -26,7 +26,7 @@ switch(_shop) do
         switch(true) do
         {
             case (playerside !=west):{"You are not a TPF Member"};
-            case (__GETC__(life_coplevel) >= 9): {"You are not a TPF Member"};
+            case (__GETC__(life_coplevel) >= 9): {"You are not a TPF Member"
             case (__GETC__(life_coplevel) <= 8):
             {
                 ["TPF Equipment",
@@ -38,7 +38,7 @@ switch(_shop) do
                         ["FirstAidKit",nil,150 * _discount],
                         ["Medikit",nil,1000 * _discount],
                         ["NVGoggles",nil,2000 * _discount],
-						["CUP_NVG_PVS7",nil,2000 * _discount],
+						            ["CUP_NVG_PVS7",nil,2000 * _discount],
                         ["Rangefinder",nil,2000 * _discount],
                         ["tf_anprc152","AN/PRC-152 Radio (5km)",50 * _discount],
                         ["tf_rt1523g","RT-1523G Long Range Radio (20km)",100 * _discount]
@@ -63,7 +63,7 @@ switch(_shop) do
                         ["FirstAidKit",nil,150 * _discount],
                         ["Medikit",nil,1000 * _discount],
                         ["NVGoggles_OPFOR",nil,2000 * _discount],
-						["CUP_NVG_PVS7",nil,2000 * _discount],
+						            ["CUP_NVG_PVS7",nil,2000 * _discount],
                         ["Laserdesignator",nil,2000 * _discount],
                         ["tf_anprc152","AN/PRC-152 Radio (5km)",50 * _discount],
                         ["tf_rt1523g","RT-1523G Long Range Radio (20km)",100 * _discount],
@@ -88,7 +88,7 @@ switch(_shop) do
                         ["FirstAidKit",nil,150 * _discount],
                         ["Medikit",nil,500 * _discount],
                         ["NVGoggles",nil,1200 * _discount],
-						["CUP_NVG_PVS7",nil,2000 * _discount],
+						            ["CUP_NVG_PVS7",nil,2000 * _discount],
                         ["tf_anprc148jem","AN/PRC148-JEM Radio (5km)",50 * _discount],
                         ["tf_anprc155","AN/PRC-155 Long Range Radio (20km)",100 * _discount]
                     ]
@@ -141,7 +141,7 @@ switch(_shop) do
                             ["CUP_optic_CompM2_Desert",nil,500 * _discount],
                             ["CUP_muzzle_snds_M16",nil,500 * _discount],
                             ["CUP_muzzle_snds_M16_camo",nil,500 * _discount],
-							["bipod_01_F_blk",nil,2500 * _discount],
+							              ["bipod_01_F_blk",nil,2500 * _discount],
                             ["CUP_optic_AN_PVS_10",nil,250 * _discount],
                             ["CUP_optic_AN_PVS_4",nil,250 * _discount],
                             ["CUP_optic_NSPU",nil,250 * _discount],
@@ -169,8 +169,8 @@ switch(_shop) do
                             ["CUP_arifle_M4A1_desert",nil,3000 * _discount],
                             ["CUP_arifle_M16A4_Base",nil,3000 * _discount],
                             ["CUP_30Rnd_556x45_Stanag",nil,250 * _discount],
-							["CUP_arifle_G36C",nil,500 * _discount],
-							["CUP_30Rnd_556x45_G36",nil,250 * _discount],
+							              ["CUP_arifle_G36C",nil,500 * _discount],
+							              ["CUP_30Rnd_556x45_G36",nil,250 * _discount],
                             ["optic_MRCO",nil,500 * _discount],
                             ["CUP_optic_CompM2_Black",nil,500 * _discount],
                             ["CUP_optic_CompM2_Desert",nil,500 * _discount],
@@ -202,9 +202,9 @@ switch(_shop) do
                             ["CUP_5Rnd_762x51_M24",nil,50 * _discount],
                             ["CUP_launch_FIM92Stinger",nil,7500 * _discount],
                             ["CUP_Stinger_M",nil,2500 * _discount],
-							["CUP_launch_RPG7V",nil,7500 * _discount],
-							["CUP_PG7V_M",nil,2500 * _discount],
-							["bipod_01_F_blk",nil,2500 * _discount],
+							              ["CUP_launch_RPG7V",nil,7500 * _discount],
+							              ["CUP_PG7V_M",nil,2500 * _discount],
+							              ["bipod_01_F_blk",nil,2500 * _discount],
                             ["optic_Arco",nil,125 * _discount],
                             ["optic_Hamr",nil,125 * _discount],
                             ["optic_DMS",nil,125 * _discount]
@@ -226,8 +226,8 @@ switch(_shop) do
                             ["CUP_arifle_M4A1_desert",nil,3000 * _discount],
                             ["CUP_arifle_M16A4_Base",nil,3000 * _discount],
                             ["CUP_30Rnd_556x45_Stanag",nil,250 * _discount],
-							["CUP_arifle_G36C",nil,500 * _discount],
-							["CUP_30Rnd_556x45_G36",nil,250 * _discount],
+              							["CUP_arifle_G36C",nil,500 * _discount],
+              							["CUP_30Rnd_556x45_G36",nil,250 * _discount],
                             ["optic_MRCO",nil,500 * _discount],
                             ["CUP_optic_CompM2_Black",nil,500 * _discount],
                             ["CUP_optic_CompM2_Desert",nil,500 * _discount],
@@ -257,9 +257,9 @@ switch(_shop) do
                             ["CUP_5Rnd_762x51_M24",nil,50 * _discount],
                             ["CUP_launch_FIM92Stinger",nil,7500 * _discount],
                             ["CUP_Stinger_M",nil,2500 * _discount],
-							["CUP_launch_RPG7V",nil,15000 * _discount],
-							["CUP_PG7V_M",nil,5000 * _discount],
-							["bipod_01_F_blk",nil,2500 * _discount],
+              							["CUP_launch_RPG7V",nil,15000 * _discount],
+              							["CUP_PG7V_M",nil,5000 * _discount],
+              							["bipod_01_F_blk",nil,2500 * _discount],
                             ["CUP_optic_AN_PVS_10",nil,250 * _discount],
                             ["CUP_optic_AN_PVS_4",nil,250 * _discount],
                             ["CUP_optic_NSPU",nil,250 * _discount],
@@ -288,8 +288,8 @@ switch(_shop) do
                             ["CUP_arifle_M4A1_desert",nil,3000 * _discount],
                             ["CUP_arifle_M16A4_Base",nil,3000 * _discount],
                             ["CUP_30Rnd_556x45_Stanag",nil,250 * _discount],
-							["CUP_arifle_G36C",nil,500 * _discount],
-							["CUP_30Rnd_556x45_G36",nil,250 * _discount],
+              							["CUP_arifle_G36C",nil,500 * _discount],
+              							["CUP_30Rnd_556x45_G36",nil,250 * _discount],
                             ["optic_MRCO",nil,500 * _discount],
                             ["CUP_optic_CompM2_Black",nil,500 * _discount],
                             ["CUP_optic_CompM2_Desert",nil,500 * _discount],
@@ -323,7 +323,7 @@ switch(_shop) do
                             ["CUP_5Rnd_762x51_M24",nil,50 * _discount],
                             ["CUP_launch_FIM92Stinger",nil,7500 * _discount],
                             ["CUP_Stinger_M",nil,2500 * _discount],
-							["bipod_01_F_blk",nil,2500 * _discount],
+							              ["bipod_01_F_blk",nil,2500 * _discount],
                             ["CUP_optic_AN_PVS_10",nil,250 * _discount],
                             ["CUP_optic_AN_PVS_4",nil,250 * _discount],
                             ["CUP_optic_NSPU",nil,250 * _discount],
@@ -351,8 +351,8 @@ switch(_shop) do
                             ["CUP_arifle_M4A1_desert",nil,3000 * _discount],
                             ["CUP_arifle_M16A4_Base",nil,3000 * _discount],
                             ["CUP_30Rnd_556x45_Stanag",nil,250 * _discount],
-							["CUP_arifle_G36C",nil,500 * _discount],
-							["CUP_30Rnd_556x45_G36",nil,250 * _discount],
+              							["CUP_arifle_G36C",nil,500 * _discount],
+              							["CUP_30Rnd_556x45_G36",nil,250 * _discount],
                             ["optic_MRCO",nil,500 * _discount],
                             ["CUP_optic_CompM2_Black",nil,500 * _discount],
                             ["CUP_optic_CompM2_Desert",nil,500 * _discount],
@@ -417,8 +417,8 @@ switch(_shop) do
                             ["CUP_arifle_M4A1_desert",nil,3000 * _discount],
                             ["CUP_arifle_M16A4_Base",nil,3000 * _discount],
                             ["CUP_30Rnd_556x45_Stanag",nil,250 * _discount],
-							["CUP_arifle_G36C",nil,500 * _discount],
-							["CUP_30Rnd_556x45_G36",nil,250 * _discount],
+              							["CUP_arifle_G36C",nil,500 * _discount],
+              							["CUP_30Rnd_556x45_G36",nil,250 * _discount],
                             ["optic_MRCO",nil,500 * _discount],
                             ["CUP_optic_CompM2_Black",nil,500 * _discount],
                             ["CUP_optic_CompM2_Desert",nil,500 * _discount],
@@ -457,7 +457,7 @@ switch(_shop) do
                             ["CUP_Stinger_M",nil,2500 * _discount],
                             ["CUP_hgun_TaurusTracker455_gold",nil,500 * _discount],
                             ["CUP_6Rnd_45ACP_M",nil,50 * _discount],
-							["bipod_01_F_blk",nil,2500 * _discount],
+							              ["bipod_01_F_blk",nil,2500 * _discount],
                             ["CUP_optic_AN_PVS_10",nil,250 * _discount],
                             ["CUP_optic_AN_PVS_4",nil,250 * _discount],
                             ["CUP_optic_NSPU",nil,250 * _discount],

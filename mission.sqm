@@ -46936,7 +46936,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=216;
+		items=234;
 		class Item0
 		{
 			position[]={-2321.8403,91.290001,15284.905};
@@ -48673,6 +48673,132 @@ class Mission
 			text="Weapon Disposal Plant";
 			type="waypoint";
 			colorName="ColorRed";
+		};
+		class Item216
+		{
+			position[]={10408.171,256.48624,6426.0674};
+			name="Gold Storage Facility";
+			text="Gold Storage Facility";
+			type="mil_warning";
+			colorName="ColorRed";
+		};
+		class Item217
+		{
+			position[]={5689.9482,82.010162,8938.5215};
+			name="gv_spawn1";
+			type="Empty";
+			angle=-10.418313;
+		};
+		class Item218
+		{
+			position[]={5694.8843,81.940933,8919.334};
+			name="gv_spawn2";
+			type="Empty";
+			angle=-9.741291;
+		};
+		class Item219
+		{
+			position[]={5699.7261,81.930435,8898.8242};
+			name="gv_spawn3";
+			type="Empty";
+			angle=352.15979;
+		};
+		class Item220
+		{
+			position[]={5708.1362,82.227859,8873.0889};
+			name="gv_spawn4";
+			type="Empty";
+			angle=-377.26016;
+		};
+		class Item221
+		{
+			position[]={5715.8984,84.125511,8848.4111};
+			name="gv_spawn5";
+			type="Empty";
+			angle=-382.14178;
+		};
+		class Item222
+		{
+			position[]={5724.915,86.712898,8823.9277};
+			name="gv_spawn6";
+			type="Empty";
+			angle=-382.16064;
+		};
+		class Item223
+		{
+			position[]={5760.311,98.013985,8730.582};
+			name="gv_spawn7";
+			type="Empty";
+		};
+		class Item224
+		{
+			position[]={5779.7832,91.321457,8966.9736};
+			name="gv_pos1";
+			type="Empty";
+			angle=76.832626;
+		};
+		class Item225
+		{
+			position[]={6617.6743,117.32572,8968.2471};
+			name="gv_pos2";
+			type="Empty";
+			angle=-603.7337;
+		};
+		class Item226
+		{
+			position[]={7144.9478,129.77478,8732.4131};
+			name="gv_pos3";
+			type="Empty";
+			angle=-597.70203;
+		};
+		class Item227
+		{
+			position[]={7732.647,152.21635,8052.228};
+			name="gv_pos4";
+			type="Empty";
+			angle=-966.99402;
+		};
+		class Item228
+		{
+			position[]={8445.248,185.47009,7566.2393};
+			name="gv_pos5";
+			type="Empty";
+			angle=-212.87601;
+		};
+		class Item229
+		{
+			position[]={8827.6279,191.1969,7184.3467};
+			name="gv_pos6";
+			type="Empty";
+			angle=-212.87601;
+		};
+		class Item230
+		{
+			position[]={9529.6123,228.56157,6559.8623};
+			name="gv_pos8";
+			type="Empty";
+			angle=-249.99001;
+		};
+		class Item231
+		{
+			position[]={10219.475,247.95448,6386.0454};
+			name="gv_pos9";
+			type="Empty";
+			angle=-249.99001;
+		};
+		class Item232
+		{
+			position[]={9123.9355,203.19974,6759.1982};
+			name="gv_pos7";
+			type="Empty";
+			angle=-246.03;
+		};
+		class Item233
+		{
+			position[]={10471.607,259.26819,6420.7192};
+			name="gv_pos10";
+			type="Empty";
+			angle=-314.21783;
 		};
 	};
 	class Sensors
