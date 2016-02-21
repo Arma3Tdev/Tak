@@ -26,7 +26,7 @@ switch(_shop) do
         switch(true) do
         {
             case (playerside !=west):{"You are not a TPF Member"};
-            case (__GETC__(life_coplevel) >= 9): {"You are not a TPF Member"
+            case (__GETC__(life_coplevel) >= 9): {"You are not a TPF Member"};
             case (__GETC__(life_coplevel) <= 8):
             {
                 ["TPF Equipment",
