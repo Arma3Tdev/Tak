@@ -132,6 +132,7 @@ class Life_Client_Core
 		class execute {};
 		class civrestrainAction {};
 		class civunrestrain {};
+		class coplaceables {};
 	};
 
 	class Housing
