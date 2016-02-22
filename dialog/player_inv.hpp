@@ -313,8 +313,8 @@ class playerSettings {
 		class ButtonWantedAdd : life_RscButtonMenu {
 						idc = 9800;
 						//shortcuts[] = {0x00050000 + 2};
-						text = "Cop Barriers";
-						onButtonClick = "[] call life_fnc_coplaceables";";
+						text = "Barriers";
+						onButtonClick = "[] call life_fnc_coplaceables";
 						x = 0.42 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
 						y = 0.805;
 						w = (6.25 / 40);
