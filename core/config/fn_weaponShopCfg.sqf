@@ -15,7 +15,7 @@
 private["_shop","_donator","_Percentage","_discount"];
 _shop = [_this,0,"",[""]] call BIS_fnc_param;
 if(_shop == "") exitWith {closeDialog 0}; //Bad shop type passed.
-_donator = __GETC__(life_donatorlvl);
+_donator = __GETC__(life_donator);
 _Percentage = 7;
 _discount = 1 / 100 * (100 - _donator * _Percentage);
 
