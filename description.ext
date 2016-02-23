@@ -9,6 +9,7 @@ disabledAI = true;
 disableChannels[]={0,1,2};
 enableDebugConsole = 1;
 respawnDialog = 0;
+LoadScreen  = "textures\mutinyloading.jpg";
 
 class Header
 {
