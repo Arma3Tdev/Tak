@@ -112,8 +112,8 @@ switch (_shop) do
             ["CUP_B_LR_MG_GB_W",150000],
             ["CUP_O_Ural_Open_CHDKZ",200000],
             ["CUP_O_Ural_CHDKZ",200000],
-      			["CUP_RG31_M2_OD",375000],
-      			["CUP_O_UAZ_SPG9_CHDKZ",150000]
+      		["CUP_RG31_M2_OD",375000],
+      		["CUP_O_UAZ_SPG9_CHDKZ",150000]
         ];
     };
 
@@ -131,15 +131,16 @@ switch (_shop) do
         ];
     if(__GETC__(life_coplevel) > 8) then {
         _return = [
-            ["CUP_B_HMMWV_Unarmed_USA",5000],
-            ["B_UGV_01_F",5000],
-            ["CUP_B_HMMWV_Transport_USA",10000],
-            ["CUP_B_HMMWV_M2_GPK_ACR",15000],
-            ["CUP_RG31_M2",15000],
-			      ["CUP_RG31E_M2",20000],
-            ["CUP_BAF_Jackal2_L2A1_D",30000],
-            ["CUP_O_Ural_SLA",15000],
-            ["CUP_B_BRDM2_HQ_CDF",180000]
+			["CUP_B_HMMWV_Unarmed_USA",5000],
+			["B_UGV_01_F",5000],
+			["CUP_B_HMMWV_Transport_USA",10000],
+			["CUP_B_HMMWV_M2_GPK_ACR",15000],
+			["CUP_RG31_M2",15000],
+			["CUP_RG31E_M2",20000],
+			["CUP_BAF_Jackal2_L2A1_D",30000],
+			["CUP_O_Ural_SLA",15000],
+			["MTVR_DES_EP1",15000],
+			["CUP_B_BRDM2_HQ_CDF",180000]
             ];
         };
 	if(__GETC__(life_coplevel) > 13) then {
@@ -223,11 +224,12 @@ switch (_shop) do
                 ["CUP_B_CH53E_USMC",450000],
                 ["B_Heli_Light_01_stripped_F",140000],
                 ["CUP_B_UH1Y_UNA_F",153000],
-                ["CUP_B_C130J_USMC",700000],
+                ["CUP_B_C130J_USMC",200000],
                 ["CUP_B_MV22_USMC",280000],
                 ["CUP_B_CH53E_USMC",450000],
                 ["C_Heli_light_01_ion_F",90000],
-                ["CUP_B_MH60S_FFV_USMC",150000],
+				["CH_47F_EP1",150000],
+                ["UH60M_EP1",150000],
                 ["CUP_B_AH1Z",250000],
                 ["CUP_B_UH1Y_GUNSHIP_F",250000]
             ];
