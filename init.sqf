@@ -21,7 +21,7 @@ StartProgress = false;
 if(!isDedicated) then { X_Client = true;};
 enableSaving[false,false];
 
-life_versionInfo = "Takistan Life RPG v1.0";
+life_versionInfo = "Takistan Life RPG v2.1";
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
 [] execVM "scripts\teargas.sqf"; //TearGas Script

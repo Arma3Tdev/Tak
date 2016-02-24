@@ -4447,6 +4447,10 @@
 			<Italian>Arresta</Italian>
 			<Portuguese>Enviar p/ Prisão</Portuguese>
 		</Key>
+		<Key ID="STR_pInAct_RemoveWeapons">
+			<Original>Pat Down</Original>
+			<English>Pat Downl</English>
+		</Key>
 		<Key ID="STR_pInAct_Repair">
 			<Original>Repair Door</Original>
 			<English>Repair Door</English>
