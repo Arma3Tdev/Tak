@@ -60,6 +60,3 @@ if((_curTarget getVariable["Escorting",false])) then {
 //Set PutInCar Button
 _Btn3 ctrlSetText localize "STR_pInAct_PutInCar";
 _Btn3 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;";
-
-_Btn4 ctrlSetText "Pat Down";
-_Btn4 buttonSetAction "[[],""life_fnc_removeWeaponActionCiv"",life_pInact_curTarget,false] spawn life_fnc_MP;closeDialog 0;";
