@@ -33,6 +33,7 @@ if(_curTarget isKindOf "House_F") exitWith {
 		_Btn5 = _display displayCtrl Btn5;
 		_Btn6 = _display displayCtrl Btn6;
 		_Btn7 = _display displayCtrl Btn7;
+		_Btn8 = _display displayCtrl Btn8;
 		life_pInact_curTarget = _curTarget;
 
 		_Btn1 ctrlSetText localize "STR_pInAct_Repair";
