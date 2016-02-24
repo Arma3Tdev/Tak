@@ -2380,6 +2380,10 @@
 			<Italian>La persona da multare non esiste.</Italian>
 			<Portuguese>Jogador a ser multado não existe.</Portuguese>
 		</Key>
+		<Key ID="STR_pInAct_RemoveWeapons">
+			<Original>Patdown Suspect</Original>
+			<English>Patdown Suspect</English>
+		</Key>
 		<Key ID="STR_Cop_TicketNum">
 			<Original>You didn't enter actual number.</Original>
 			<English>You didn't enter actual number.</English>
