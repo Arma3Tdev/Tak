@@ -15,6 +15,7 @@ switch(playerSide) do
 	case west:
 	{
 		ctrlShow[2011,false];
+		ctrlShow[9800,false];
 	};
 
 	case civilian:
@@ -28,12 +29,5 @@ if(__GETC__(life_adminlevel) < 1) then
 	ctrlShow[2020,false];
 	ctrlShow[2021,false];
 };
-if((__GETC__(life_coplevel) > 4) && (playerSide==west)) then
-{
-                        ctrlShow[9800,true];
-                        if(__GETC__(life_coplevel) > 5) then
-                        {
-                                ctrlShow[1992,true];
-                        };
-};
+
 [] call life_fnc_p_updateMenu;
